@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    #canvasHolder {
+    width: 1280px;
+    height: 720px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  </style>
+  <script src="p5.js"></script>
+  <!-- <script src="p5.sound.js"></script> -->
+  <script src="sketch.js"></script>
+</head>
+
+<body style="background: hotpink">
+	<audio src = "d_back.mp3" id = "back_m" loop = "loop"></audio>
+	<div id=canvasHolder class="box"><pre id=fps_show>FPS: </pre></div>
+</body>
+
+</html>

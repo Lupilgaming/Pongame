@@ -20,7 +20,7 @@ function setup() {
   counter = [0, 0]
   fps = 30
   scoreP = false
-  frameRate(20)
+  //frameRate(20)
   song = document.getElementById("back_m")
 }
 
